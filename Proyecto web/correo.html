@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> BilbaoMugi </title>
+
+       <script type="text/javascript">
+        function comprobaremail(){
+          emailusuario = document.formularioregistro.emailusur;
+           var email = /^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$/;
+
+           if (!email.test(document.formularioregistro.emailusur.value)){
+               alert ("Caca");
+           }
+           else {
+            alert ("Siuuu");
+           }
+       }
+      
+    </script>
+    </head> 
+<body>
+    <form name="formularioregistro" onsubmit="comprobaremail()">
+    <p><label for="email" >Email : </label>
+        <input type="text" placeholder="Escribe tu email"name="emailusur"required="required"></p>  
+
+    <input type="submit" value="Enviar">     
+    </form>   
+</body>
+</html>
+
+
+<!-- (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor) -->

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> BilbaoMugi </title>
+
+       <script type="text/javascript">
+       
+       function comprobardni(){
+           dniusuario = document.formularioregistro.dniusur;
+           var dni = /^[0-9]{8}[A-Z]$/;
+
+           if (!dni.test(document.formularioregistro.dniusur.value)){
+               window.alert ("Caca");
+           }
+           else {
+            window.alert ("Siuuu");
+           }
+       }
+
+    </script>
+    </head> 
+<body>
+    <form name="formularioregistro" >
+    <p><label for="telefono" >Telefono </label>
+        <input type="text" placeholder="Escribe tu DNI"id="dni"required="required"name="dniusur"></p>  
+
+    <input type="button" value="Enviar" onclick="comprobardni()">     
+    </form>   
+</body>
+</html>

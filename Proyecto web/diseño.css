@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0;  
+}
+.menu{
+    display: none;
+}
+.encabezadoidioma{
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+}
+.encabezadotitulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezadoregistro{
+    display: flex;
+    align-items: center;  
+}
+.iconomenu{
+    font-size: 1.5em;
+    border: 1px solid gray;
+    display: ruby-base;
+    padding: 10px 15px;
+}
+
+.imagen{
+    display: block;
+    width: 95%;
+    height: 95%;
+    margin-left: 2%;
+    margin-right: 0.5%;
+    align-items: center;
+    
+   
+} 
+.promocion{
+    position: relative;
+}
+.promociontitulo{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 3.5em;
+    top: 0%;
+    left: 0%;
+    color: rgb(182, 121, 7);
+    
+}
+.descripcionpromo{
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    width: 50%;
+    bottom: 0%;
+    left: 0%;
+    color: black;
+}
+.botonpromo{
+    display: inline-block;
+    border-radius: 12px;
+    position: absolute;
+    font-size: 2.25em;
+    bottom: 0%;
+    left: 50%;
+    width: 50%;
+    height: 10%;
+    border: none;
+    background-color: rgb(197, 129, 4);
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+        margin-bottom: 5px;
+    margin-right: 5px;
+}
+.botonpromo:hover{
+    box-shadow:  0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

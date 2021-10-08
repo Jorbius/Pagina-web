@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> BilbaoMugi </title>
+
+       <script type="text/javascript">
+       
+       function comprobartelefono(){
+           telefonousuario = document.formularioregistro.telefonousur;
+           var telefono = /^[0-9]{9}$/;
+
+           if (!telefono.test(document.formularioregistro.telefonousur.value)){
+               alert ("Caca");
+           }
+           else {
+            alert ("Siuuu");
+           }
+       }
+
+    </script>
+    </head> 
+<body>
+    <form name="formularioregistro" >
+    <p><label for="telefono" >Telefono </label>
+        <input type="tel" placeholder="Escribe tu telefono"id="telefono"required="required"name="telefonousur"></p>  
+
+    <input type="button" value="Enviar" onclick="comprobartelefono()">     
+    </form>   
+</body>
+</html>

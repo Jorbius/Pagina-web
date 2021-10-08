@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <title> Rent&GO </title>
+		<link rel="stylesheet" type="text/css" href="diseño.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	</head>
+	<body>
+		<header class="encabezado">
+			<div class="encabezadotitulo"><h1 class="titulo"> Rent&GO</h1></div>
+				<div class="encabezadogeneral">
+					<div class="encabezadoidiomaesp"><a href="" >ESPAÑOL</a></div>
+					<div class="encabezadoidiomaeus"><a href="" >EUSKERA</a></div>
+					<div class="encabezadoidiomaing"><a href="" >INGLÉS</a></div>
+					<div class="encabezadologin">Login <i class="fas fa-user"></i></div>
+					<div class="encabezadoregistro">Regístrate <i class="fas fa-user"></i></div>
+				</div>
+		</header>
+		<div><nav class="menu" id="menu">
+			<ul class="menu">
+				<li class="objmenu" id="btnm1"><a href="" >PRODUCTOS DESTACADOS</a></li>
+				<li class="objmenu" id="btnm2"><a href="" >TODOS LOS PRODUCTOS</a></li>
+				<li class="objmenu" id="btnm3"><a href="" >ALQUILA TU CARAVANA</a></li>
+				<li class="objmenu" id="btnm4"><a href="" >QUIÉNES SOMOS</a></li>
+				<li class="objmenu" id="btnm5"><a href="" >CONTACTO</a></li>
+			</ul></nav></div>
+            
+        <form name="formularioregistro" onsubmit="comprobaredad()">
+            <h1>Registro</h1> 
+            <p><label for="nombre" > Nombre: </label>
+            <input type="text" name="nombre"placeholder="Escribe tu nombre" id="nombre"required="required"> 
+        
+            <label for="apellido1" >1ºApellido: </label>
+            <input type="text"name="apellido1" placeholder="Escribe tu 1º apellido"id="apellido1"required="required">
+
+            <label for="apellido2" >2ºApellido: </label>
+            <input type="text" name="apellido2" placeholder="Escribe tu 2º apellido"id="apellido2"required="required"><br></p>
+
+
+            <p><label for="fechancto" >Fecha de nacimiento : </label>
+            <input type="date"name="fechancto" placeholder="Escribe tu fecha de nacimiento"id="fechancto"required="required"onclick="comprobaredad">
+
+            <label for="email" >Email: </label>
+            <input type="email" name="email"placeholder="Escribe tu email"id="email"required="required">
+
+            <label for="telefono" >Teléfono: </label>
+            <input type="tel" name="telefono"placeholder="Escribe tu teléfono"id="telefono"required="required">
+            </p>
+
+
+            <p><label for="contraseña" >Contraseña: </label>
+            <input type="password" name="contraseña"placeholder="Escribe tu contraseña" id="contraseña"required="required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener un número, una letra minúscula, mayúscula y 8 o más caracteres">
+
+            <label for="confircontraseña" >Contraseña: </label>
+            <input type="password" name="confircontraseña"placeholder="Repite tu contraseña" id="confircontraseña"required="required" title="Debe contener un número, una letra minúscula, mayúscula y 8 o más caracteres">   
+            </p>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <hr>
+            
+
+            
+
+      
+    
+    
+
+
+ 
+
+
+        </form>
+    </body>
+</html>
+
+
+

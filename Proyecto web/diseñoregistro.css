@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#dc5b2377;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+header{
+    background-color: #dc5b238f;
+    height: 20vh;
+    width: 100%;
+    margin:0%;
+    text-align: center;
+    
+}
+.encabezadotitulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 20vh;
+}
+.titulo {
+    text-align: center;
+    font-size: 7vw ;
+    color: white;
+    border: 1px solid black;
+    text-shadow: 7px 4px 5px black;
+      
+}
+.encabezadoidiomaesp{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    font-size: 1vw ;
+    left: 0%;
+    top: 0%;
+    border: 0.5px solid black;
+    padding: 3px;
+    color: white;   
+    margin: 2px;
+}
+.encabezadoidiomaeus{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    font-size: 1vw ;
+    left: 5.2vw;
+    top: 0%;
+    border: 0.5px solid black; 
+    padding: 3px;
+    color: white;  
+    margin: 2px;
+}
+.encabezadoidiomaing{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    font-size: 1vw ;
+    left: 10.5vw;
+    top: 0%;
+    border: 0.5px solid black; 
+    padding: 3px; 
+    color: white;
+    margin: 2px;
+   
+}
+
+.encabezadoregistro{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    font-size: 1.5vw ;
+    right: 0%;
+    top: 0%;
+    border: 1px solid black;
+    margin: 2px;
+}
+.encabezadologin{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    font-size: 1.5vw ;
+    right: 8.3vw;
+    top: 0%;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+       
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+li a:hover:not(.active) {
+    background-color:#dc5b238f ;
+}
+
+li a.active {
+    color: white;
+    background-color: #dc5b238f;
+} 
+.tituloregistro{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3vw;
+    border-bottom: 4px solid black;
+}
+.datosusuario{
+    width: 100%;
+    margin-left: 35vw;
+    margin-top: 10px;
+    
+}
+.inputregistro{
+    font-size: 2vw;
+    padding: 15px;;    
+    
+    
+}
+.botonregistro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  
+ 
+}
+.botonsumbit{
+    width: 90px;
+    height: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;   
+    line-height: 50px;
+    bottom: 0%;
+}
